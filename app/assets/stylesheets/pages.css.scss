@@ -1,0 +1,133 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html, body {
+  font-family: "Oxygen", sans-serif; 
+  font-weight: 300; 
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 970px;
+}
+
+/********************* Main *********************/
+.main {
+  background: black;
+  color: white;
+}
+
+.main .container {
+  padding: 50px 0 70px;
+  text-align: center;
+}
+
+.main ul {list-style-type: none;}
+
+.main li {
+  display: inline;
+  padding: 0 10px;
+}
+
+.main ul img {
+  border: 1px solid black;
+  height: 35px;
+  margin-left: -20px;
+}
+
+.lightning.white {
+  border: 1px solid transparent;
+  color: white;
+}
+
+.main a, .main img {transition-duration: 0.5s;}
+
+.btn {
+  border: 1px solid #0393ff;
+  border-radius: 2px;
+  color: #0393ff;
+  font-weight: bold;
+}
+
+.lightning:hover {
+  background: #0393ff;
+  border: 1px solid #0393ff;
+  border-radius: 2px;
+  color: black;
+  box-shadow: 2px 4px 0 #fcc01e;
+  text-decoration: none;
+}
+
+.main h1 {
+  clear: both;
+  font-size: 60px;
+  padding: 100px 0 20px;
+  text-align: center;
+}
+
+.main form {padding: 70px 0 30px;}
+
+.main .form-inline .form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+  padding-right: 300px;
+}
+
+/********************* Supporting *********************/
+.supporting {
+  background-image: url(http://s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
+  background-size: 141px 142px;
+}
+
+.supporting .container {
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.supporting h2 {color: #0393ff;}
+
+.supporting p {
+  font-size: 16px;
+  padding-bottom: 30px;
+}
+
+.supporting .row {padding: 10px 0;}
+
+/********************* Feature *********************/
+.feature {
+  background: url(http://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg) no-repeat center;
+  background-size: cover;
+  height: 380px;
+}
+
+.feature .container {
+  color: white;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.feature h2 {color: #0393ff;}
+.feature p {font-size: 18px;}
+
+/********************* Footer *********************/
+.footer {
+  background: black;
+  padding: 50px 0;
+}
+
+.footer .left {text-align: left;}
+
+.footer h4 {color: white;}
+.footer p {color: #0393ff;}
+
+.footer ul {list-style-type: none;}
+
+.footer ul, .footer li {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
